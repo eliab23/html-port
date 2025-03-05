@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Table</title>
+        <style type="text/css">
+            table{
+                width: 100%;
+            }
+            th{
+                text-align:left;
+                font-size:30px;
+                background-color: green;
+            }
+            table,tr,th,td{
+                border:1px solid black;
+                border-collapse: collapse;
+            }
+            table tr:nth-child(even){
+                background-color: gray;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>company</th>
+                <th>Product</th>
+                <th>amount</th>
+            </tr>
+            <tr>
+                <td>LG</td>
+                <td>TV</td>
+                <td>850</td>
+            </tr>
+            <tr>
+                <td>Samsung</td>
+                <td>TV</td>
+                <td>8o0</td>
+            </tr>
+            <tr>
+                <td>LG</td>
+                <td>mobile</td>
+                <td>1500</td>
+            </tr>
+            <tr>
+                <td>Samsung</td>
+                <td>mobile</td>
+                <td>2000</td>
+            </tr>
+        </table>
+    </body>
+</html>
